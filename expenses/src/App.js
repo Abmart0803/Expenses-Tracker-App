@@ -26,6 +26,9 @@ function App() {
   return (
     <div>
       <h2>Let's get started!</h2>
+      <div>
+        <h3>This is also a Sub Heading</h3>
+      </div>
       <Expenses items={expenses} />
     </div>
   );
