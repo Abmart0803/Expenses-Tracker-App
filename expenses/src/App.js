@@ -33,9 +33,14 @@ const App = () => {
   // );
   //Abve is how to create all elements in the react if not using JXS as below code.
 
+  const addExpenseHandler = (expense) => {
+    console.log("In App.js");
+    console.log(expense);
+  };
+
   return (
     <div>
-      <NewExpense />
+      <NewExpense onAddExpenses={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
   );

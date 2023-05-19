@@ -19,7 +19,16 @@ label {
   display: block;
   /* float: left; */
 
-.new-expense__control input {
+.new-expense__control {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+input {
   font: inherit;
   padding: 0.5rem;
   border-radius: 6px;
